@@ -54,7 +54,7 @@ const Login = () => {
                         <label>Password</label>
                     </div>
                     <div className='forget'>
-                        <p>forget password?</p>
+                        <p>forget password ?</p>
                     </div>
                     {/* <br /> */}
                     <button >Submit</button>
