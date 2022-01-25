@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: #eee; */
+}
+.Dashboard {
+    display: flex;
+    padding: 10%;
+    margin-top: 15%;
+}
+
+.single-price{
+    width:23%;
+    background: #262626;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+    border-radius: 10px;
+}
+.price{
+    /* width: 90px; */
+    /* height: 90px; */
+    /* border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto 0 auto; */
+    border: 1px solid #da4357;
+    border-radius: 8px;
+    text-align: center;
+}
+.single-price:hover{
+    /* border: 2px solid white; */
+}
+/* .deals{
+    margin-top: 10%;
+} */
+.single-price h1{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 7%;
+    line-height: 3;
+    text-transform: uppercase;
+}
+.price h2{
+    color: #fff;
+    padding: 9px;
+    font-size: 20px;
+     /* margin-top: 11px; */
+}
+
+.single-price:hover{
+    background: #da4357;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: calc(1.1);
+    z-index: 1;
+   
+}
+
+@media screen and (max-width: 321px) {
+    .Dashboard {
+        display: block;
+        grid-column: unset;
+        grid-row: unset;
+        margin: 53% 0% 0% 0% !important;
+    }
+    .single-price{
+            width: 250px;
+            margin: 20%;
+
+    }
+}
+@media screen and (max-width: 375px) {
+    .Dashboard {
+        display: block ;
+        grid-column: unset;
+        grid-row: unset;
+        margin: 53% 0% 0% 10%;
+    }
+    .single-price{
+            width: 250px;
+            margin: 20%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .Dashboard {
+        display: block;
+        grid-column: unset;
+        grid-row: unset;
+        margin: 43% 0% 0% 30%;
+    }
+    .single-price{
+            width: 250px;
+            margin: 20%;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .Dashboard {
+        display: block;
+        grid-column: unset;
+        grid-row: unset;
+        margin: 43% 0% 0% 30%;
+    }
+    .single-price{
+            width: 250px;
+            margin: 20%;
+
+    }
+}
+
+/* @media (max-width: 370px) {
+    .wrapper{
+     display: -ms-inline-grid;
+    }
+  } */
+/* .single-price:hover .price{
+    border-color: #fff;
+} */
+/* .single-price a{
+    text-decoration: none;
+    background: #da4357;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.single-price:hover a{
+    background: #262626;
+    color: #fff;
+} */

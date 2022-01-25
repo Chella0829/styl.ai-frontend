@@ -1,0 +1,15 @@
+.Folder {
+    /* background: aquamarine; */
+    height: 100vh;
+    width: 77vw;
+    margin-top: 11%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.upload{
+    text-align: center;
+}
+.upload p{
+    font-weight: 700;
+    font-size: 27px;
+}

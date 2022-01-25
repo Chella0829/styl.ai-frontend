@@ -1,0 +1,46 @@
+.Package{
+    width: 77vw;
+    height: 100vh;
+}
+.silverpage{
+    width: 900px;
+    margin: 11% auto;
+}
+.goldpage{
+    width:23%;
+    background: #262626;
+    float: left;
+    margin: 5%;
+    padding: 20px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+.diamondprice{
+    border: 1px solid #da4357;
+    border-radius: 8px;
+    text-align: center;
+}
+.goldpage:hover{
+    border: 2px solid white;
+}
+.goldpage h1{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 7%;
+    line-height: 3;
+    text-transform: uppercase;
+}
+.diamondprice h2{
+    color: #fff;
+    padding: 9px;
+    font-size: 20px;
+}
+.goldpage:hover{
+    background: #da4357;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: calc(1.1);
+    z-index: 1;
+    border-radius: 25px;
+}

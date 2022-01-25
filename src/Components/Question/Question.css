@@ -1,0 +1,14 @@
+.Question {
+    margin-top: 11%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 77vw;
+    height: 100vh;
+}
+.quest{
+    text-align: center;
+}
+.quest p{
+    font-weight: 700;
+    font-size: 27px;
+}
