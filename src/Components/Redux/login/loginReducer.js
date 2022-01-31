@@ -1,12 +1,20 @@
-const intial_state = {
-    user :[],
+import * as actionTypes from "./loginTypes";
+
+const INITIAL_STATE = {
+    user: [],
 }
-const loginUser = (state = intial_state , action ) =>{
-    return{
-        ...state,
-        user:action.payload,
-   }
+
+const loginReducer = (state = INITIAL_STATE, action ) =>{
+    switch (action.type) {
+        case actionTypes.POST_USER:
+          return {
+            ...state,
+            user: action.payload,
+          };
+        default:
+            return state;
+        }
    
 }
 
-export default loginUser;
+export default loginReducer;

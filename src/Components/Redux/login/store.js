@@ -1,6 +1,7 @@
 import { createStore } from "redux";
-import loginUser from "./loginReducer";
-const store = createStore (loginUser);
+import { composeWithDevTools } from "redux-devtools-extension";
+import loginUser from "./reducer";
+const store = createStore(loginUser, {}, composeWithDevTools());
 
 
 

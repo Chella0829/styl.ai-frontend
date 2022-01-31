@@ -1,0 +1,57 @@
+.admin{
+    margin-top: 8%;
+   
+}
+.subadmin {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.subadmin div:nth-child(1){
+    font-size: 25px;
+    font-weight: 700;
+}
+.subadmin p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.costomer-id{
+    /* display: flex; */
+    font-size: 18px;
+    font-weight: 600;
+}
+.secondadmin {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    line-height: 50px;
+}
+.secondadmin label{
+    font-size: 15px;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+.secondadmin input {
+    outline: none;
+    width: 60%;
+    height: 35px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid gray
+}
+.tables{
+    overflow-x: auto;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}

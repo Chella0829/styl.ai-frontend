@@ -4,6 +4,7 @@
 }
 .silverpage{
     width: 900px;
+    display: flex;
     margin: 11% auto;
 }
 .goldpage{
@@ -15,26 +16,42 @@
     box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
     text-align: center;
     transition: 0.9s;
+    border-radius: 6px;
 }
-.diamondprice{
+/* .diamondprice{
     border: 1px solid #da4357;
     border-radius: 8px;
     text-align: center;
+} */
+.diamondprice p{
+    color: white;
+    line-height: 45px;
 }
-.goldpage:hover{
-    border: 2px solid white;
-}
+
 .goldpage h1{
     font-size: 18px;
     color: #fff;
-    margin-bottom: 7%;
+    /* margin-bottom: 7%; */
     line-height: 3;
     text-transform: uppercase;
 }
-.diamondprice h2{
-    color: #fff;
-    padding: 9px;
+.diamondprice button{
+    width: 100%;
+    background: #262626;
+    border: 1px solid #da4357 !important;
+    border: none;
+    color: white;
+    border-radius: 5px;
     font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 25px;
+}
+.diamondprice button:hover{
+    background: #da4357;
+    color: #fff;
+    border: 1px solid white !important;
+    transition: 0.9s;
 }
 .goldpage:hover{
     background: #da4357;
@@ -42,5 +59,9 @@
     box-shadow: 0 0 15px rgba(0,0,0,1);
     transform: calc(1.1);
     z-index: 1;
-    border-radius: 25px;
+}
+.goldpage .diamondprice button:hover{
+    background: white;
+    color: black;
+    z-index: 1;   
 }

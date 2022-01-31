@@ -59,6 +59,8 @@
    
 }
 
+
+
 @media screen and (max-width: 321px) {
     .Dashboard {
         display: block;
@@ -110,6 +112,7 @@
 
     }
 }
+
 
 /* @media (max-width: 370px) {
     .wrapper{
